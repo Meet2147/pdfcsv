@@ -46,11 +46,11 @@ def payment():
         if st.sidebar.button("Subscribe"):
             if subscription_option == "499₹ Lifetime":
                 st.session_state.subscription_option = "Lifetime"
-                amount = 499
+                amount = 1
                 payment_button_id = "pl_ODwpT1Oah9kcWp"
             elif subscription_option == "299₹ 6 Months":
                 st.session_state.subscription_option = "6 Months"
-                amount = 299
+                amount = 1
                 payment_button_id = "pl_OEGS2RsMAH9sIW"
 
             order = create_order(amount)
