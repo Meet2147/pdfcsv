@@ -1,0 +1,6 @@
+streamlit
+pandas
+tabula-py
+razorpay
+SQLite3-0611
+secure-smtplib
