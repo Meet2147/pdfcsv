@@ -1,0 +1,5 @@
+[server]
+headless = true
+
+[runner]
+pre_startup = "./setup.sh"
